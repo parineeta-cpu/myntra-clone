@@ -22,7 +22,9 @@ header {
 	box-shadow:0px 0px 5px 1px gray;
 	padding:18px 5px;
 	font-weight:bold;
+	
 }
+
 .studio {
 	margin-top:-4px;								
 }
@@ -66,14 +68,20 @@ sup {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
+	
 }
 .code {
 	margin:40px 80px;
-	height:80px;
+	width:55vw;
 	box-shadow:2px 2px 8px gray;
 }
+.hello {
+	display:flex;
+	justify-content:center;
+	
+}
 .img {
-	width:48vw;
+	width:40vw;
 }
 .image {
 	margin-top:-25px;
@@ -81,14 +89,30 @@ sup {
 	justify-content:center;
 		
 }
-.image-2 {
-	margin:30px 0px;
-	display:flex;
-	justify-content:center;	
-}
+
 .imag {
 	
-	width:96vw;
+	width:80vw;
+}
+
+.image-2 {
+	display:flex;
+	justify-content:center;
+}
+.hi {
+	display:flex;
+	justify-content:center;
+	padding:20px 0px;
+}
+.me {
+	width:600px;
+	margin:30px 0px;				
+}
+.you {
+	width:35vw;
+}
+.she {
+	width:80vw;
 }
 .imag-parent{
 	display:flex;
@@ -100,21 +124,50 @@ sup {
 	right:0px;
 	bottom:100px;
 }
-.all-deals {
 
-	display:flex;
-	justify-content:center;
-	
-}
-.deal {
-	width:250px;
-	
-}
-.category {
+.all-deals {
 	display:flex;
 	justify-content:center;
 	gap:10px;
 }
+.deal {
+	width:210px;
+	
+}
+.now {
+	display:flex;
+	justify-content:center;
+}
+.he {
+	width:1200px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+.category {
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	flex-direction:column;
+}
+.hyy{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
 .option {
-	width:200px;
+	width:160px;
+}
+.image-3 {
+	margin:10px 0px;
+	display:flex;
+	gap:80px;
+	justify-content:center;
+}
+.shell {
+	display:flex;
+	justify-content:center;
+}
+.last {
+	margin:20px 0px;
+	width:80vw;
 }
