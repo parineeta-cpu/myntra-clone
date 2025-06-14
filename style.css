@@ -9,7 +9,7 @@ body {
 	font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 .logo {
-	width:60px;
+	width:70px;
 	margin-right:20px;
 }
 header {
@@ -17,14 +17,26 @@ header {
 	position:sticky;
 	top:0;
 	display:flex;
-	gap:20px;
-	justify-content:space-between;
-	box-shadow:0px 0px 5px 1px gray;
-	padding:18px 5px;
+	gap:100px;
+	box-shadow:0px 1px 4px 0px gray;
+	padding:20px 5px;
 	font-weight:bold;
 	
 }
-
+.sale {
+	background-image:linear-gradient(to right, black, gray);
+	color:white;
+	font-size:27px;
+	width:300px;
+	text-align:center;
+	padding:5px 0px;
+	position:fixed;
+	left:1170px;
+	top:340px;
+	z-index:2;
+	transform:rotate(270deg);
+	
+}
 .studio {
 	margin-top:-4px;								
 }
@@ -33,15 +45,20 @@ header {
 	margin-top:5px;
 	display:flex;
 	align-items:center;
-	gap:30px;
+	gap:35px;
 }
 .menu a {
 	text-decoration:none;
 	color:black;
 	
 }
-.links, .searching{
+.links {
 	display:flex;
+	margin-left:50px;
+}
+.searching {
+	display:flex;
+
 }
 sup {
 	color:#ff007f;
@@ -57,8 +74,25 @@ sup {
 }
 .section {
 	display:flex;
-	gap:26px;
-	margin-right:20px;
+	gap:38px;
+	align-items:center;
+   margin-left:40px;
+	
+}
+.side-menu {
+	font-size:18px;
+}
+.center h6 {
+	position:absolute;
+	right:135px;
+}
+.center-2 h6 {
+	position:absolute;
+	right:75px;
+}
+.center-3 h6 {
+	position:absolute;
+	right:33px;
 }
 .section a {
 	text-decoration:none;
@@ -108,6 +142,7 @@ sup {
 	width:600px;
 	margin:30px 0px;				
 }
+
 .you {
 	width:35vw;
 }
@@ -119,16 +154,33 @@ sup {
 	justify-content:center;																																																																																																																																																																																																																				
 }
 .bell {
-	width:40px;
+	width:50px;
 	position:fixed;
-	right:0px;
-	bottom:100px;
+	right:20px;
+	bottom:80px;
+}
+.sup {
+	background-color:orange;
+	font-size:10px;
+	width:25px;
+	position:fixed;
+	left:1315px;
+	z-index:5;
+	top:516px;
+	padding:2px 3px;
+	border-radius:2px;
 }
 
 .all-deals {
 	display:flex;
 	justify-content:center;
 	gap:10px;
+}
+.all-deals img {
+	cursor:pointer;
+}
+.category img {
+	cursor:pointer;
 }
 .deal {
 	width:210px;
@@ -170,4 +222,46 @@ sup {
 .last {
 	margin:20px 0px;
 	width:80vw;
+}
+footer {
+	padding:30px 150px;
+	background-color:#f7fafc;
+	display:flex;
+	gap:40px;
+}
+
+.light a {
+	text-decoration:none;
+	color:#696b79;
+}
+.light {
+	font-size:13px;
+	display:flex;
+	flex-direction:column;
+	color:#696b79;
+}
+.title{
+	font-size:12px;
+	margin:25px 2px;
+}
+.up{
+margin-bottom:3px;
+}
+.icon {
+	font-size:28px;
+	margin:0px 5px;
+	color:#696b79;
+}.mynta {
+	width:65px;
+	margin:25px 5px;
+	
+}
+.row{
+	display:flex;
+}
+.row-2{
+	margin-top:25px;
+}
+.block {
+	display:block;
 }
